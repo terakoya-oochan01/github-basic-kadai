@@ -1,0 +1,40 @@
+
+user@usernoMacBook-Air git_challenge % git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+user@usernoMacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+[main 47b7542] hello_world.txtを追加
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+user@usernoMacBook-Air git_challenge % git log
+commit 47b7542cadf4c59e5282dac9af1f502d00930e76 (HEAD -> main)
+Author: samurai-oochan01 <oochan01@gmail.com>
+Date:   Sun Dec 17 22:13:30 2023 +0900
+
+    hello_world.txtを追加
+
+user@usernoMacBook-Air git_challenge % git add hello_world.txt
+user@usernoMacBook-Air git_challenge % git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+user@usernoMacBook-Air git_challenge % git commit -m "日本語訳を追加" 
+[main 3bb43cc] 日本語訳を追加
+ 1 file changed, 1 insertion(+)
+user@usernoMacBook-Air git_challenge % git log
+commit 3bb43cc911cb5fc6d2b802e83d1c70447df2611f (HEAD -> main)
+Author: samurai-oochan01 <oochan01@gmail.com>
+Date:   Sun Dec 17 22:16:01 2023 +0900
+
+    日本語訳を追加
+
+commit 47b7542cadf4c59e5282dac9af1f502d00930e76
+Author: samurai-oochan01 <oochan01@gmail.com>
+Date:   Sun Dec 17 22:13:30 2023 +0900
+
+    hello_world.txtを追加
+
